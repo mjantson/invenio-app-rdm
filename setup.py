@@ -24,7 +24,7 @@ tests_require = [
 ]
 
 setup_requires = [
-    'Babel>=2.8,<3.0',
+    'Babel>=2.8',
 ]
 
 extras_require = {
@@ -124,6 +124,6 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
     ],
 )
