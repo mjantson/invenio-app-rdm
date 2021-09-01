@@ -18,36 +18,19 @@
     <div class="ui padded relaxed centered grid">
       <div class="invenio-rdm-project-goals">
         <div class="rdm-goal">
-          <div class="flex-center-vertically">
-            <div class="numbering">1</div>
-          </div>
           <h3 class="section-title">{{ _("Data sets") }}</h3>
           <div class="command-line">
             {% trans configuration_link="/search?q=" %}
-              Click <a href="{{ configuration_link }}" target="_blank">here</a> to see the v>
+              Click <a href="{{ configuration_link }}" target="_blank">here</a> to see the various data sets added to the repository.
             {% endtrans %}
           </div>
         </div>
         <div class="rdm-goal">
-          <div class="flex-center-vertically">
-            <div class="numbering">2</div>
-          </div>
           <h3 class="section-title">{{ _("Uploads") }}</h3>
             <div class="command-line">
               {% trans configuration_link="/uploads" %}
-                <a href="{{ configuration_link }}" target="_blank">Upload</a> a new file to >
+                <a href="{{ configuration_link }}" target="_blank">Upload</a> a new file to the repository.
               {% endtrans %}
-          </div>
-        </div>
-        <div class="rdm-goal">
-          <div class="flex-center-vertically">
-            <div class="numbering">3</div>
-          </div>
-          <h3 class="section-title">{{ _("Publ database") }}</h3>
-          <div class="command-line">
-            {% trans deployment_link="https://ws.lib.ttu.ee/digibase/Publ/Search" %}
-              Taltech's previous official  <a href="{{ deployment_link }}" target="_blank">d>
-            {% endtrans %}
           </div>
         </div>
       </div>
